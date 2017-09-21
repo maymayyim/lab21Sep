@@ -10,9 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var imageView: UIImageView!
+    var pname: String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.title = pname
+        label.text = pname
+        imageView.image = UIImage(named: pname+".jpeg")
     }
 
     override func didReceiveMemoryWarning() {

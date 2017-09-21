@@ -12,6 +12,8 @@
 		0A05658B1F737396006570B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A0565891F737396006570B4 /* Main.storyboard */; };
 		0A05658D1F737396006570B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A05658C1F737396006570B4 /* Assets.xcassets */; };
 		0A0565901F737396006570B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A05658E1F737396006570B4 /* LaunchScreen.storyboard */; };
+		0A0565981F7373F1006570B4 /* Archive in Resources */ = {isa = PBXBuildFile; fileRef = 0A0565971F7373F1006570B4 /* Archive */; };
+		0A05659A1F737461006570B4 /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0565991F737461006570B4 /* FoodTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0A05658C1F737396006570B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A05658F1F737396006570B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A0565911F737396006570B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A0565971F7373F1006570B4 /* Archive */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Archive; sourceTree = "<group>"; };
+		0A0565991F737461006570B4 /* FoodTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		0A0565791F737396006570B4 = {
 			isa = PBXGroup;
 			children = (
+				0A0565971F7373F1006570B4 /* Archive */,
 				0A0565841F737396006570B4 /* Lab21Sep */,
 				0A0565831F737396006570B4 /* Products */,
 			);
@@ -55,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				0A0565851F737396006570B4 /* AppDelegate.swift */,
+				0A0565991F737461006570B4 /* FoodTableViewController.swift */,
 				0A0565871F737396006570B4 /* ViewController.swift */,
 				0A0565891F737396006570B4 /* Main.storyboard */,
 				0A05658C1F737396006570B4 /* Assets.xcassets */,
@@ -124,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A0565901F737396006570B4 /* LaunchScreen.storyboard in Resources */,
+				0A0565981F7373F1006570B4 /* Archive in Resources */,
 				0A05658D1F737396006570B4 /* Assets.xcassets in Resources */,
 				0A05658B1F737396006570B4 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A0565881F737396006570B4 /* ViewController.swift in Sources */,
+				0A05659A1F737461006570B4 /* FoodTableViewController.swift in Sources */,
 				0A0565861F737396006570B4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
